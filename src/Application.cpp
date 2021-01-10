@@ -20,7 +20,7 @@ float angle(float x)
 
 int main(void)
 {   
-    GLFWwindow* window = setup();
+    GLFWwindow* window = setup(800, 600);
     if(window)
     {   
         //Pulsating Circle

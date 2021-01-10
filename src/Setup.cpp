@@ -3,7 +3,7 @@
 #include <iostream>
 
 //Setup GLFW, GLEW successfully
-GLFWwindow* setup()
+GLFWwindow* setup(int WIDTH, int HEIGHT)
 {
     bool success = true;
 
@@ -19,7 +19,7 @@ GLFWwindow* setup()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     /* Create a windowed mode window and its OpenGL context */
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Hello World", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Hello World", NULL, NULL);
     if (!window)
     {
         std::cout << "OpenGL context window failed." << std::endl;

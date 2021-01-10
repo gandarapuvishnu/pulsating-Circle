@@ -3,4 +3,4 @@
 #include <gl/glew.h>
 #include <GLFW/glfw3.h>
 
-GLFWwindow* setup();
+GLFWwindow* setup(int WIDTH, int HEIGHT);
