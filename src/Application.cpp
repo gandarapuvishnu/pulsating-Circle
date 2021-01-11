@@ -24,6 +24,8 @@ int main(void)
     if(window)
     {   
         //Pulsating Circle
+        float radius = 0.5f;
+
         float positions[360*2 + 2]{};
         unsigned int indices[360*3]{};
 
@@ -32,9 +34,9 @@ int main(void)
             if (i < 2)
                 positions[i] = 0.0f;
             else if (i & 1)
-                positions[i] = cosf(angle(i - 2));
+                positions[i] = radius * cosf(angle(i - 2));
             else
-                positions[i] = sinf(angle(i - 2));
+                positions[i] = radius * sinf(angle(i - 2));
         }
 
         for (unsigned int j = 0; j < (360 * 3); j++)
