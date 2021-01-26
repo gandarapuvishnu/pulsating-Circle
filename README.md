@@ -8,4 +8,4 @@ A pulsating Circle, made using OpenGL.
 Wireframe Mode:
 
 
-https://user-images.githubusercontent.com/52231690/105806744-88e9fa80-5fca-11eb-9ca5-48f01d44cfaa.mp4
+![My Video](https://user-images.githubusercontent.com/52231690/105810379-d5d0cf80-5fd0-11eb-8c4d-05e67c1abc56.gif)
