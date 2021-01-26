@@ -52,7 +52,7 @@ int main(void)
         }
 
         VertexArray va;
-        VertexBuffer vb(positions, sizeof(positions));
+        VertexBuffer vb(positions, sizeof(positions), GL_STATIC_DRAW);
         VertexBufferLayout layout;
         layout.Push<float>(2);
         va.AddBuffer(vb, layout);
@@ -73,7 +73,7 @@ int main(void)
 
         Renderer renderer;
 
-        bool GL_WIREFRAME_MODE = false;
+        bool GL_WIREFRAME_MODE = true;
 
         /* Loop until the user closes the window */
         while (!glfwWindowShouldClose(window))
