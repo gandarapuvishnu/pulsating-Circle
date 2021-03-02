@@ -20,7 +20,7 @@ int main(void)
         assign();
         
         VertexArray va;
-        VertexBuffer vb(positions, sizeof(positions));
+        VertexBuffer vb(positions, sizeof(positions), GL_STATIC_DRAW);
         VertexBufferLayout layout;
         layout.Push<float>(2);
         va.AddBuffer(vb, layout);
