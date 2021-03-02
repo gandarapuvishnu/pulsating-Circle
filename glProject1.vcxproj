@@ -161,6 +161,7 @@
     <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\Setup.h" />
     <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\Variables.h" />
     <ClInclude Include="src\VertexArray.h" />
     <ClInclude Include="src\VertexBuffer.h" />
     <ClInclude Include="src\VertexBufferLayout.h" />
